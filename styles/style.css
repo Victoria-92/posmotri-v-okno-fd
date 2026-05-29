@@ -75,11 +75,6 @@ ol {
   gap: 40px;
 }
 
-.content__list-container {
-  height: 298px;
-  overflow-y: auto;
-}
-
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -100,6 +95,8 @@ ol {
 }
 
 .content__list-container {
+  height: 298px;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
