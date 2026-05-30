@@ -58,6 +58,8 @@ ol {
   align-items: flex-end;
   width: 100%;
   max-width: 1140px;
+  max-height: 534px;
+  margin: 133px 30px 133px 30px;
 }
 
 .content__details {
@@ -65,8 +67,8 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  width: 410px;
+  max-height: 534px;
+  width: 399px;
 }
 
 .search-form {
@@ -74,13 +76,19 @@ ol {
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
-  width: 711px;
+  max-width: 711px;
+  max-height: 54px;
+}
+
+.result {
+  max-width: 711px;
+  height: 456px;
 }
 
 .result__video-container {
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   position: relative;
 }
 
@@ -98,6 +106,7 @@ ol {
 
 .content__list-container {
   height: 298px;
+  width: 100%;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -108,9 +117,13 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
 }
 
+.content__list-item {
+  max-width: 390px;
+  max-height: 103px;
+
+}
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
@@ -120,6 +133,9 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  width: 196px;
+  height: 103px;
+
 }
 
 .search-form__fieldset-title {
@@ -137,6 +153,9 @@ ol {
   text-transform: uppercase;
   margin-bottom: 26px;
   color: #FFF;
+  max-width: 260px;
+  max-height: 210px;
+
 }
 
 .content__accent {
@@ -147,7 +166,7 @@ ol {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: 0 3px;
+  padding: 0 3px 0 2px;
   cursor: pointer;
 }
 
@@ -161,6 +180,8 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: 196px;
+  height: 30px;
 }
 
 .content__video-card-description {
@@ -173,6 +194,8 @@ ol {
   -webkit-box-orient: vertical;
   overflow: hidden;
   word-break: break-word;
+  width: 196px;
+  height: 17px;
 }
 
 .visually-hidden {
@@ -191,15 +214,16 @@ ol {
 }
 
 .search-form__fieldset {
-  border: none;
-  padding: 0;
+  max-width: 225px;
+  max-height: 54px;
 }
 
 .search-form__label {
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  width: fit-content;
+  max-width: 225px;
+  max-height: 27px; 
   cursor: pointer;
 }
 
@@ -214,7 +238,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   width: 225px;
-  height: 30px;
+  height: 27px;
   appearance: none;
   outline: none;
 }
@@ -274,7 +298,8 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 390px;
+  height: 34px;
 }
 
 .button:hover {
