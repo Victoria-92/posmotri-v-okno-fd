@@ -66,6 +66,8 @@ ol {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  display: flex;
+width: 390px;
 }
 
 .search-form {
